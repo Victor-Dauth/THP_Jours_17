@@ -72,7 +72,7 @@ class HumanPlayer < Player
     end
   end
 
-  def search_health_pack
+  def search_health_pack #permet de chercher un pack de points de vie
     luck = rand(1..6)
 
     if luck == 1
